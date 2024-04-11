@@ -48,7 +48,7 @@ const Contact = () => {
             <p className="leading-relaxed mb-5 text-gray-600">
               feel free to contact
             </p>
-            <form action="https://formspree.io/f/mqkrgkry" method="POST" className='bg-blue-200' >
+            <form action="https://formspree.io/f/mqkrgkry" method="POST" className='bg-blue-200' target='_blank' >
               <div className="relative mb-4">
                 <label htmlFor="name" className="leading-7 text-sm text-gray-600">
                   Name
@@ -101,7 +101,7 @@ const Contact = () => {
                   required
                 />
               </div>
-              <button className="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg w-full">
+              <button className="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg w-full" >
                 Send Message
               </button>
             </form>
